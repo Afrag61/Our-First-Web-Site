@@ -21,5 +21,18 @@
                 <li class="here-page" >Contact</li>
             </ul>
         </nav>
+        <main>
+            <h1 class="helper">Submitted</h1>
+            <form class="form">
+                <label for="inputname">Name</label>
+                <input type="text" name="name" class="form-input" id="input-name" oninput="checkInput()">
+                <label for="inputemail">Mail</label>
+                <input type="text" name="email" class="form-input" id="input-mail" oninput="checkInput()">
+                <label for="inputmessage">Your Message</label>
+                <textarea name="message" cols="30" rows="10" class="form-input" id="input-message" oninput="checkInput()"></textarea>
+                <button type="submit" class="submit-button" disabled>submit</button>
+            </form>
+        </main>
+        <script src="main.js"></script>
 </body>
 </html>

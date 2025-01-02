@@ -17,5 +17,5 @@ for(var x = 0; x < images.length; x++){
     images[x].addEventListener('click', openModal)
 }
 
-// images.onclick = openModal
-backdrop.onclick = closeModal
+// backdrop.onclick = closeModal
+backdrop.addEventListener('click', closeModal)
