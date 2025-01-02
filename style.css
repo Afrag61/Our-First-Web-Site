@@ -176,8 +176,8 @@ textarea {
     margin-top: 10px;
     padding: 5px;
     background: #979695;
+    border: 1px solid gray;
     color: white;
-    border: 1px solid #521751;
     width: 70px;
     font-size: large;
     border-radius: 4px;

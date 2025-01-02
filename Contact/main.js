@@ -9,9 +9,11 @@ var text = document.querySelector('.helper')
 function checkInput(){
     if(inputName.value.trim() !== '' && regEx.test(inputMail.value) && inputMessage.value.trim() !== ''){
         button.style.backgroundColor = '#fa923f'
+        button.style.border = '1px solid #521751';
         button.disabled = false;
     }else{
         button.style.backgroundColor = '#979695'
+        button.style.border = '1px solid gray';
         button.disabled = true;
     }
 }
